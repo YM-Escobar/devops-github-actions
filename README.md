@@ -1,0 +1,1 @@
+[![Verificacion Basica](https://github.com/YM-Escobar/devops-github-actions/actions/workflows/ci.yml/badge.svg)](https://github.com/YM-Escobar/devops-github-actions/actions/workflows/ci.yml)
