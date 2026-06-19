@@ -14,4 +14,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Mensaje de prueba
-        run: echo "Workflow ejecutado correctamente"
+        run: echo "Workflow ejecutado correctamente en el proyecto"
