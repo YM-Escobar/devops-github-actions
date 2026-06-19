@@ -1,0 +1,17 @@
+name: Verificacion Basica
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Mensaje de prueba
+        run: echo "Workflow ejecutado correctamente"
