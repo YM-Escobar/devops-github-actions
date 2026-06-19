@@ -13,5 +13,8 @@ jobs:
       - name: Descargar repositorio
         uses: actions/checkout@v4
 
-      - name: Mensaje de prueba
-        run: echo "Workflow ejecutado correctamente en el proyecto"
+      - name: Verificar archivo index.html
+        run: test -f index.html
+
+      - name: Mensaje de validacion
+        run: echo "Proyecto validado correctamente"
