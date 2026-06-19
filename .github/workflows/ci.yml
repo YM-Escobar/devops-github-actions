@@ -16,5 +16,11 @@ jobs:
       - name: Verificar archivo index.html
         run: test -f index.html
 
+      - name: Verificar archivo style.css
+        run: test -f css/style.css
+
+      - name: Verificar archivo script.js
+        run: test -f js/script.js
+
       - name: Mensaje de validacion
         run: echo "Proyecto validado correctamente"
